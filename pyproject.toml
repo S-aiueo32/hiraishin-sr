@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hiraishin_sr"
+version = "0.1.0"
+description = "SR with Hiraishin"
+authors = ["S-aiueo32 <s.aiueo32@gmail.com>"]
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+hiraishin = "0.2.0rc1"
+torchvision = "^0.11.3"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
